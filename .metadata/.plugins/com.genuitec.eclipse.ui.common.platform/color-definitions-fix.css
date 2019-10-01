@@ -131,6 +131,27 @@ IEclipsePreferences#org-eclipse-mylyn-wikitext-ui {
 		'block-h6=font-size: 80%; font-weight: bold; color: #0e739c;'
 		'phrase-code=font-family: monospace; color: #6d72f6;'
 }
+IEclipsePreferences#org-eclipse-pde-ui {
+	preferences:
+		'editor.color.default=217,217,242'
+		'editor.color.externalized_string=112,168,16'
+		'editor.color.externalized_string_italic=true'
+		'editor.color.header_assignment=103,207,241'
+		'editor.color.header_assignment_bold=true'
+		'editor.color.header_attributes=112,168,16'
+		'editor.color.header_key=176,32,82'
+		'editor.color.header_key_bold=true'
+		'editor.color.header_osgi=38,139,210'
+		'editor.color.header_value=23,198,163'
+		'editor.color.header_value_italic=true'
+		'editor.color.instr=176,32,82'
+		'editor.color.instr_bold=true'
+		'editor.color.string=23,198,163'
+		'editor.color.string_italic=true'
+		'editor.color.tag=38,139,210'
+		'editor.color.tag_bold=true'
+		'editor.color.xml_comment=38,38,115'
+}
 IEclipsePreferences#org-eclipse-tm-terminal-control {
 	preferences:
 		'TerminalPrefInvertColors=true'
@@ -201,6 +222,14 @@ IEclipsePreferences#org-eclipse-ui-workbench {
 		'content_assist_parameters_foreground=221,221,244'
 		'content_assist_proposals_background=17,17,52'
 		'content_assist_proposals_foreground=221,221,244'
+		'cucumber.eclipse.editor.presentation.gherkin_comment_colour=255,191,191'
+		'cucumber.eclipse.editor.presentation.gherkin_keyword_colour=254,254,0'
+		'cucumber.eclipse.editor.presentation.gherkin_numeric_literal_colour=191,255,191'
+		'cucumber.eclipse.editor.presentation.gherkin_placeholder_colour=203,101,0'
+		'cucumber.eclipse.editor.presentation.gherkin_step_colour=0,254,254'
+		'cucumber.eclipse.editor.presentation.gherkin_string_colour=191,255,191'
+		'cucumber.eclipse.editor.presentation.gherkin_tag_colour=0,101,203'
+		'cucumber.eclipse.editor.presentation.gherkin_text_colour=255,255,255'
 		'declBoder=0,254,254'
 		'doctypeExternalId=50,50,149'
 		'doctypeExternalPubref=0,254,254'
