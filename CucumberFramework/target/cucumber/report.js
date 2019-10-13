@@ -6,6 +6,10 @@ formatter.feature({
   "id": "registered-user-is-able-to-login-using-correct-login-credentials",
   "keyword": "Feature"
 });
+formatter.before({
+  "duration": 6572959527,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 3,
   "name": "Login into StackOverFlow website",
@@ -48,43 +52,44 @@ formatter.match({
   "location": "StackOverFlow_Login_Steps.user_is_on_the_StackOverFlow_website()"
 });
 formatter.result({
-  "duration": 281486565,
+  "duration": 3808653500,
   "status": "passed"
 });
 formatter.match({
   "location": "StackOverFlow_Login_Steps.clicks_on_the_Login_Link_and_is_navigated_to_login_page()"
 });
 formatter.result({
-  "duration": 167012,
+  "duration": 5921557569,
   "status": "passed"
 });
 formatter.match({
   "location": "StackOverFlow_Login_Steps.user_enters_valid_username()"
 });
 formatter.result({
-  "duration": 160013,
+  "duration": 329890482,
   "status": "passed"
 });
 formatter.match({
   "location": "StackOverFlow_Login_Steps.user_enters_valid_password()"
 });
 formatter.result({
-  "duration": 185672,
+  "duration": 274230117,
   "status": "passed"
 });
 formatter.match({
   "location": "StackOverFlow_Login_Steps.user_clicks_on_login()"
 });
 formatter.result({
-  "duration": 244918,
+  "duration": 5182914780,
   "status": "passed"
 });
 formatter.match({
   "location": "StackOverFlow_Login_Steps.user_is_logged_in_the_site()"
 });
 formatter.result({
-  "duration": 149750,
-  "status": "passed"
+  "duration": 104746190,
+  "error_message": "java.lang.AssertionError: expected:\u003cfalse\u003e but was:\u003ctrue\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat CucumberFramework.steps.StackOverFlow_Login_Steps.user_is_logged_in_the_site(StackOverFlow_Login_Steps.java:65)\r\n\tat ✽.Then User is logged in the site(StackOverFlow_Login.feature:10)\r\n",
+  "status": "failed"
 });
 formatter.uri("StackOverFlow_Login2.feature");
 formatter.feature({
@@ -93,6 +98,10 @@ formatter.feature({
   "description": "",
   "id": "registered-user-is-able-to-login-using-correct-login-credentials",
   "keyword": "Feature"
+});
+formatter.before({
+  "duration": 12778108223,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 3,
@@ -142,7 +151,7 @@ formatter.match({
   "location": "StackOverFlow_Login_Steps.user_is_on_the_StackOverFlow_website(int)"
 });
 formatter.result({
-  "duration": 5688632,
+  "duration": 4858246,
   "status": "passed"
 });
 formatter.match({
@@ -155,7 +164,7 @@ formatter.match({
   "location": "StackOverFlow_Login_Steps.clicks_on_the_Login_Link_and_is_navigated_to_login_page(int)"
 });
 formatter.result({
-  "duration": 377407,
+  "duration": 281773,
   "status": "passed"
 });
 formatter.match({
@@ -168,7 +177,7 @@ formatter.match({
   "location": "StackOverFlow_Login_Steps.user_enters_valid_username(int)"
 });
 formatter.result({
-  "duration": 253782,
+  "duration": 260313,
   "status": "passed"
 });
 formatter.match({
@@ -181,7 +190,7 @@ formatter.match({
   "location": "StackOverFlow_Login_Steps.user_enters_valid_password(int)"
 });
 formatter.result({
-  "duration": 350817,
+  "duration": 306497,
   "status": "passed"
 });
 formatter.match({
@@ -194,7 +203,7 @@ formatter.match({
   "location": "StackOverFlow_Login_Steps.user_clicks_on_login(int)"
 });
 formatter.result({
-  "duration": 281773,
+  "duration": 251916,
   "status": "passed"
 });
 formatter.match({
@@ -207,7 +216,7 @@ formatter.match({
   "location": "StackOverFlow_Login_Steps.user_is_logged_in_the_site(int)"
 });
 formatter.result({
-  "duration": 257514,
+  "duration": 264512,
   "status": "passed"
 });
 });
